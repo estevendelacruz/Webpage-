@@ -1,0 +1,72 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+}
+
+
+.back-ground{
+    height: 100%;
+    width:  100%; 
+    background: url('background.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+h1{
+    color: white; 
+    position: absolute; 
+    top: 50%; 
+    width: 100%; 
+    text-align: center; 
+}
+h2{
+     color: white; 
+    position: absolute; 
+    top: 60%; 
+    width: 100%; 
+    text-align: center;
+    
+}
+ i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+p{
+    text-align: center;
+    list-style-position: inside;
+    margin: 2%;
+    padding: 1em;
+    margin-left:300px;
+    margin-right:300px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+    
+
